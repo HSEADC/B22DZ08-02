@@ -1,11 +1,320 @@
-body.index {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+body {
+    background-color: #F6F6F6;
+}
+.mut {
+    font-family: 'Mutabor', sans-serif;
+}
 
-  & > div,
-  & > a {
-    margin: 10px 0;
-  }
+.cyg {
+    font-family: 'Cygre', sans-serif;
+}
+
+.cygit {
+    font-family: 'Cygre', sans-serif;
+    font-style: italic;
+}
+
+body.index {
+
+.index_back {
+   width: 100vw;
+   height: auto;
+   position: absolute;
+   background-image: url('images/about_project/desktop_3.jpg');
+   background-size: 100%;
+   background-repeat: no-repeat;
+   opacity: 30%;
+   z-index: 10;
+}
+
+
+.header {
+    width: auto;
+    height: 12.7vw;
+    position: relative;
+    padding: 3vw 14vw 0 14vw;
+
+    .links {
+        top: 1.6vw;
+        position: relative;
+        text-align: right;
+        font-family: 'Cygre', sans-serif;
+        a {
+            
+        div {
+            position: relative;
+            background-color: white;
+            box-shadow: 0vw 0vw 20px 0vw rgba(0, 0, 0, 0.10);
+            border-radius: 20vw;
+            display: inline-block;
+            margin-left: 1vw;
+            img {
+                bottom: 0.4vw;
+                margin: 0 1.3vw 0 0.3vw;
+                height: 0.8vw;
+                display: inline-block;
+            }
+
+            p {
+                bottom: 0.5vw;
+                font-size: 1.3vw;
+                display: inline-block;
+                font-family: 'Cygre';                    
+                margin: 1vw 0 0 1.3vw;
+            }
+
+            * {
+                position: relative;
+                // margin-bottom: 1vh;
+            }
+            }
+        }
+    }
+
+    .logo {
+        position: relative;
+        height: auto;
+        width: 13vw;
+        top: -6vw;
+    }
+
+    .menu {
+        font-family: "Cygre";
+        font-size: 1.3vw;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        a {
+            margin-left: 3.6vw;
+        }
+            a:nth-child(2n):hover {
+                color: #087113;
+            }
+            a:nth-child(3n):hover {
+                color: #DFA532;
+            }
+            a:nth-child(4n):hover {
+                color: #3140CC;
+            }
+
+        img {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin-top: -0.5vw;
+            height: auto;
+            width: 2vw;
+        }
+    }
+}
+
+    .tags {
+        top: 1.4vw;
+        left: 1.4vw;
+        position: relative;
+        font-family: 'Cygre', sans-serif;
+        div {
+            position: relative;
+            background-color: white;
+            border-radius: 20vw;
+            display: inline-block;
+            margin-right: 0.1vw;
+
+            p {
+                font-size: 1.25vw;
+                display: inline-block;
+                font-family: 'Cygre';                    
+                margin: 0.5vw 1vw;
+            }
+            }
+    }
+    
+.display_1 {
+    width: auto;
+    height: 25vw;
+    position: relative;
+    padding: 0 14vw;
+
+    > div {
+        position: absolute;
+        width: 72vw;
+        height: 25vw;
+        img {
+            position: absolute;
+            width: 72vw;
+            height: 25vw;
+            border-radius: 2vw;
+            z-index: -2;
+        }
+
+        > p {
+            position: absolute;
+            color: white;
+        }
+        p:nth-child(3n) {
+            top: 14.7vw;
+            left: 2.35vw;
+            font-size: 2.8vw;
+        }
+        p:nth-child(4n) {
+            top: 18.6vw;
+            left: 2vw;
+            font-size: 1.25vw;
+            width: 36vw;
+            line-height: 1.8vw;
+        }
+    }
+}
+
+.display_2 {
+    width: auto;
+    height: 27vw;
+    position: relative;
+    padding: 0 14vw;
+
+    > p {
+        position: relative;
+    }
+
+    p:first-child {
+        top: 6vw;
+        left: 0vw;
+        width: 40vw;
+        line-height: 2.89vw;
+        font-size: 1.87vw;
+    }
+    p:nth-child(2n) {
+        top: 7vw;
+        left: 0;
+        width: 20vw;
+        font-size: 1.25vw;
+        color: #B10000;
+    }
+
+    img {
+        position: absolute;
+        top: 4vw;
+        left: 67.2vw;
+        width: 19vw;
+    }
+}
+
+.display_3 {
+
+    width: auto;
+    height: 36vw;
+    position: relative;
+    padding: 0 14vw;
+    display: flex;
+
+    > div > p {
+        font-family: 'Cygre';
+        font-size: 2vw;
+        position: absolute;
+    }
+
+    .first_block {
+        display: inline-block;
+        width: 29.4vw;
+        height: 24.7vw;
+        position: relative;
+        margin-right: 1.8vw;
+
+        > p {
+            color: white;
+            top: 21vw;
+            left: 1vw;
+        }
+
+        img {
+            width: 27.4vw;
+            height: 24.7vw;
+            border-radius: 2vw;
+            position: absolute;
+        }
+    }
+    .third_block {
+        display: inline-block;
+        width: 10.7vw;
+        height: 24.7vw;
+        position: relative;
+
+        >p {
+            color: white;
+            top: 21vw;
+            left: 1vw;
+        }
+
+        img {
+            width: 10.7vw;
+            height: 24.7vw;
+            border-radius: 2vw;
+            position: absolute;
+        }
+    }
+
+    .second_block {
+        display: inline-block;
+        width: 29.4vw;
+        height: 24.7vw;
+        position: relative;
+        margin-right: 1.8vw;
+
+        .second_block_1 {
+            width: 29.4vw;
+            height: 11.35vw;
+            border-radius: 2vw;
+            position: relative;
+            margin-bottom: 1.8vw;
+            background-color: #EAEAEA;
+
+            > p {
+                top: 6vw;
+                width: 22vw;
+                left: 1vw;
+                font-family: "Cygre";
+                font-size: 2vw;
+                position: absolute;
+            }
+        }
+
+        .second_block_2 {
+            width: 29.4vw;
+            height: 11.35vw;
+            position: relative;
+            
+            img {
+                position: absolute;
+                width: 29.4vw;
+                height: 11.35vw;
+                border-radius: 2vw;
+            }
+
+            > p {
+                color: white;
+                top: 6vw;
+                width: 25vw;
+                left: 1vw;
+                font-family: "Cygre";
+                font-size: 2vw;
+                position: absolute;
+            }
+        }
+    }
+}
+.display_4 {
+    width: auto;
+    height: 12vw;
+    position: relative;
+    
+    img {
+        width: 100vw;
+        height: auto;
+        position: absolute;
+    }
+}
+
 }

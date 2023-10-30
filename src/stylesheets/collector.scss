@@ -1,0 +1,126 @@
+.collector {
+    height: 100vh;
+    overflow: hidden;
+}
+
+div.back {
+    background-color: #DFA532;
+    margin: 3vh;
+    height: 94vh;
+    width: auto;
+    border-radius: 30px;
+    
+ .name {
+        top: 9vh;
+        left: 10vh;
+        position: absolute;
+
+        p {
+            font-family: 'Mutabor', sans-serif;
+            margin-bottom: 8vh;
+            font-size: 22vh;
+            color: white;
+            position: relative;
+        }
+
+        img {
+            top: 40vh;
+            left: 0vh;
+            height: 63vh;
+            position: absolute;
+        }
+    }
+
+input {
+    font-family: "Cygre";
+    height: 8vh;
+    width: 33vh;
+    border-radius: 70px;
+    border: 0;
+    background-color: #D9D9D9;
+    font-size: 2.5vh;
+    line-height: 7vh;
+    top: 20vh;
+    left: 4vh;
+    position: absolute;
+    padding-left: 4vh;
+    z-index: 1;
+}
+
+button {
+    font-family: "Cygre";
+    border: 0;
+    bottom: 0vh;
+    right: 0vh;
+    height: 9vh;
+    width: 25vh;
+    border-radius: 70px 0 50px;
+    position: absolute;
+    background-color: #087113;
+    color: white;
+    font-size: 3vh;
+    line-height: 7vh;
+    z-index: 1;
+
+    position: absolute;
+        p {
+            transform: rotate(-10deg);
+        }
+}
+
+.email {
+    font-family: "Cygre", sans-serif;
+    top: 10vh;
+    right: 10vh;
+    position: absolute;
+    width: 60vh;
+    height: 33vh;
+    background-color: white;
+    border-radius: 50px;
+
+    img {
+        transform: rotate(34deg);
+        bottom: -10vh;
+        right: -11vh;
+        height: 20vh;
+        position: absolute;
+    }
+
+    > p {
+        font-size: 7vh;
+        line-height: 7vh;
+        top: 2vh;
+        left: 4vh;
+        position: absolute;
+    }
+
+}
+.about {
+    position: absolute;
+    bottom: 7vh;
+    right: 10vh;
+    font-family: 'Cygre', sans-serif;
+
+    div {
+        position: relative;
+
+        img {
+            margin-right: 1vh;
+            height: 3vh;
+            display: inline-block;
+        }
+        p {
+            bottom: 0.5vh;
+            font-size: 4vh;
+            color: white;
+            display: inline-block;
+            margin-bottom: 2vh;
+        }
+
+        * {
+            position: relative;
+            // margin-bottom: 1vh;
+        }
+    }
+}
+}

@@ -1,0 +1,323 @@
+body.section_1 {
+    background-color: #F6F6F6;
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-family: 'Cygre', sans-serif;
+
+    .header { 
+    width: auto  ; 
+    height: 12.7vw; 
+    position: relative; 
+    padding: 3vw 13.9vw 0 13.9vw; 
+ 
+    .logo { 
+        position: relative; 
+        height: auto; 
+        width: 13vw; 
+        top: -3.6vw; 
+    } 
+ 
+    .menu { 
+        font-family: "Cygre"; 
+        font-size: 1.22vw; 
+        position: relative; 
+        display: flex; 
+        flex-direction: row; 
+        justify-content: flex-end; 
+ 
+        a { 
+            margin-left: 3.6vw;
+            transition: 0.1s; 
+        } 
+            a:nth-child(2n):hover { 
+                color: #087113; 
+            } 
+            a:nth-child(3n):hover { 
+                color: #DFA532; 
+            } 
+            a:nth-child(4n):hover { 
+                color: #3140CC; 
+            } 
+ 
+        img { 
+            position: relative; 
+            display: flex; 
+            flex-direction: row; 
+            justify-content: flex-end; 
+            margin-top: -0.5vw; 
+            height: auto; 
+            width: 2vw; 
+        } 
+    } 
+}
+    .display_1 {
+        position: relative;
+        width: auto  ;
+        height: 36vw;
+        padding: 0 13.9vw;
+     
+        .back {
+            position: absolute;
+            width: 1vw;
+            height: 1.12vw;
+            top: 1.9vw;
+            left: 14.7vw;
+        }
+        .nazad {
+            top: 1.5vw;
+            font-size: 1.33vw;
+            left: 16.9vw;
+            position: absolute;
+            color: #DFA532;
+        }
+        .date {
+            top: 27.5vw;
+            font-size: 1.33vw;
+            left: 13.9vw;
+            position: absolute;
+            color: #DFA532;
+        }
+        .kletka {
+            top: 14.9vw;
+            font-size: 4.23vw;
+            left: 32.8vw;
+            position: absolute;
+            color: white;
+        }
+        .detki {
+            position: absolute;
+            width: 72.2vw;
+            height: 18.3vw;
+            top: 7.8vw;
+            border-radius: 30px;
+        }
+        .first_w {
+            position: absolute;
+            height: 2.4vw;
+            width: 9.4vw;
+            border-radius: 20px;
+            background: #FFF;
+            box-shadow: 0px 0px 10px 0px rgba(183, 123, 3, 0.15);
+            top: 30.2vw;
+            left: 13.8vw;
+        }
+        .first {
+            position: absolute;
+            font-size: 1.3vw;
+            display: inline-flex;
+            top: 30.6vw;
+            left:15vw;
+        }
+        .second_w {
+            position: absolute;
+            height: 2.4vw;
+            width: 13.9vw;
+            border-radius: 20px;
+            background: #FFF;
+            box-shadow: 0px 0px 10px 0px rgba(183, 123, 3, 0.15);
+            top: 30.2vw;
+            left: 24.6vw;
+        }
+        .second {
+                position: absolute;
+                font-size: 1.3vw;
+                display: inline-flex;
+                top: 30.6vw;
+                left:26vw;
+            }
+   }
+   .display_2 {
+       position: relative;
+       width: auto  ;
+       height: 72vw;
+       padding: 0 13.9vw;
+    //    background-color: rgb(166, 193, 255);
+    //    opacity: 15%;
+    .text {
+       font-size: 1.875vw;
+       line-height: 3vw;
+       top: 5vw;
+       left: 13.9vw;
+       right: 13.9vw;
+       position: absolute;
+    }
+    p::first-letter { 
+        font-family: 'Mutabor', sans-serif;
+        font-size: 7vw;
+        color: #DFA532;
+    }
+ }
+    .display_3 {
+       position: relative;
+       width: auto  ;
+       height: 32vw;
+       padding: 0 13.9vw;
+    
+        .main {
+            top: 0vw;
+            font-size: 1.9vw;
+            left: 13.9vw;
+            position: absolute;
+            color: #DFA532;
+        }
+
+        .rac_1 {
+            background-color: #EAEAEA;
+            position: absolute;
+            width: 23.3vw;
+            height: 18.3vw;
+            top: 3.5vw;
+            left: 13.9vw;
+            border-radius: 20px;
+
+            .w_3 {
+                position: absolute;
+                height: 2.4vw;
+                width: 12.6vw;
+                border-radius: 20px;
+                background: #FFF;
+                top: 0.6vw;
+                left: 0.8vw;
+            }
+            .on_w {
+                position: absolute;
+                font-size: 1.25vw;
+                top: 1vw;
+                left: 2.3vw;
+            }
+            .car {
+                position: absolute;
+                font-size: 2.1vw;
+                top: 11.7vw;
+                left: 1.2vw;
+            }
+            .pro_car {
+                position: absolute;
+                font-size: 1.1vw;
+                top: 14.6vw;
+                left: 1.2vw;
+            }
+        }
+        .rac_2 {
+            position: absolute;
+            width: 35.6vw;
+            height: 18.3vw;
+            top: 3.5vw;
+            left: 38.3vw;
+            border-radius: 15px;
+            img {
+                position: absolute;
+                width: 35.6vw;
+                height: 18.3vw;
+                border-radius: 15px;
+            }
+            .w_4 {
+                position: absolute;
+                height: 2.4vw;
+                width: 9.4vw;
+                border-radius: 20px;
+                background: #FFF;
+                top: 0.6vw;
+                left: 0.8vw;
+            }
+            .on_w4 {
+                position: absolute;
+                font-size: 1.25vw;
+                top: 1vw;
+                left: 2.3vw;
+            }
+            .w_5 {
+                position: absolute;
+                height: 2.4vw;
+                width: 13.7vw;
+                border-radius: 20px;
+                background: #FFF;
+                top: 0.6vw;
+                left: 10.7vw;
+            }
+            .on_w5 {
+                position: absolute;
+                font-size: 1.25vw;
+                top: 1vw;
+                left: 12.2vw;
+            }
+            .look {
+                position: absolute;
+                font-size: 2.1vw;
+                top: 11.7vw;
+                left: 1.2vw;
+                color: white;
+            }
+            .pro_look {
+                position: absolute;
+                font-size: 1.1vw;
+                top: 14.6vw;
+                left: 1.2vw;
+                color: white;
+            }
+        }
+            
+        }
+        .rac_3 {
+            background-color: #EAEAEA;
+            position: absolute;
+            width: 11.3vw;
+            height: 18.3vw;
+            top: 3.5vw;
+            left: 74.9vw;
+            border-radius: 20px;
+
+            .w_6 {
+                position: absolute;
+                height: 2.4vw;
+                width: 9.4vw;
+                border-radius: 20px;
+                background: #FFF;
+                top: 0.6vw;
+                left: 0.8vw;
+            }
+            .on_w6 {
+                position: absolute;
+                font-size: 1.25vw;
+                top: 1vw;
+                left: 2.3vw;
+            }
+            .sloop {
+                position: absolute;
+                font-size: 2.1vw;
+                top: 11.7vw;
+                left: 1vw;
+            }
+            .pro_sloop {
+                position: absolute;
+                font-size: 1.1vw;
+                top: 14.6vw;
+                left: 1.2vw;
+            }
+        }
+.podvalik {
+    position: relative;
+    width: auto  ;
+    height: auto;
+
+    .podval {
+        position: absolute;
+        width: 100vw;
+        height: auto;
+  }
+    .title {
+        position: absolute;
+        font-family: 'Mutabor', sans-serif;
+        font-size: 2vw;
+        color: white;
+        top: 3.3vw;
+        left: 13.9vw;
+    }
+    .form {
+        position: absolute;
+        font-size: 1.6vw;
+        color: white;
+        top: 2.2vw;
+        left: 38.3vw;
+        line-height: 1.7vw;
+    } }}
