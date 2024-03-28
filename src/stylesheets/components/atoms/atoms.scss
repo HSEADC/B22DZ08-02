@@ -1,0 +1,531 @@
+//titles
+
+h1 {
+  font-size: 80px;
+  line-height: 120%;
+
+  @media (max-width: 764px) {
+    font-size: 72px;
+  }
+
+  @media (max-width: 530px) {
+    font-size: 64px;
+  }
+
+  @media (max-width: 474px) {
+    font-size: 56px;
+  }
+
+  @media (max-width: 440px) {
+    font-size: 48px;
+  }
+}
+
+h2 {
+  font-size: 52px;
+  line-height: 120%;
+}
+
+h3 {
+  font-size: 48px;
+  line-height: 110%;
+
+  @media (max-width: 482px) {
+    font-size: 36px;
+  }
+}
+
+h4 {
+  font-size: 32px;
+  line-height: 110%;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+//buttons and tags
+
+.A_main-menu {
+  @include font(var(--black), 'Phlatt Grotesk', 1rem);
+  transition: 0.1s;
+
+  &:hover {
+    transition: 0.1s;
+    color: var(--orange);
+  }
+}
+
+.A_tag {
+  @include font(default, 'Phlatt Grotesk', 0.75rem);
+  display: inline-flex;
+  padding: 0.125rem 0.5rem;
+  border-radius: 2rem;
+  height: fit-content;
+}
+
+//cards
+.A_card-title {
+  @include font(default, 'Pitagon Sans Mono');
+  height: 4.375rem;
+  width: 100%;
+  &.Orange {
+    color: var(--orange);
+  }
+  &.White {
+    color: var(--white);
+  }
+}
+
+.A_card-text {
+  @include font(var(--black), 'Phlatt Grotesk', 1rem, 120%);
+  align-self: stretch;
+  padding: 0.5rem 0.625rem;
+  width: 100%;
+  height: 4.625rem;
+  border-radius: 0.5rem;
+  &.Test-Article {
+    background-color: var(--light-orange);
+  }
+  &.Video {
+    background-color: var(--white);
+  }
+}
+
+.A_card-cover {
+  width: 15rem;
+  height: 11rem;
+  border-radius: 0.5rem;
+}
+
+.A_invention-name {
+  @include font(var(--white), 'Pitagon Sans Mono');
+}
+
+.A_invention-image {
+  width: 14.5rem;
+  height: 16rem;
+}
+//logotype
+
+.A_logo {
+  @include font(default, 'Pitagon Sans Mono', 1.5rem, default, uppercase);
+  &.Black {
+    color: var(--black);
+  }
+  &.White {
+    color: var(--black);
+  }
+}
+
+//widgets
+.A_note-text {
+  @include font(var(--black), 'Pitagon Sans Mono', 2rem, 110%);
+}
+
+.A_search-text {
+  @include font(var(--black), 'Pitagon Sans Mono', 1rem);
+  .Title {
+    color: var(--orange);
+  }
+  p {
+    display: inline;
+  }
+}
+.A_widget-title {
+  @include font(default, 'Phlatt Grotesk');
+  width: 106px;
+}
+
+//articles
+
+.A_test-and-article-cover {
+  @include cover;
+  height: 21.875rem;
+  width: inherit;
+  &.Image-type {
+    background-image: url('./././images/articles/article-kletki-dlya-detki.jpg');
+  }
+  &.hat-article-cover {
+    background-image: url('./././images/articles/hat-article-cover.jpg');
+  }
+  &.glasses-article-cover {
+    background-image: url('./././images/articles/glasses-article-cover.jpg');
+  }
+  &.cyber-article-cover {
+    background-image: url('./././images/articles/cyber-article-cover.jpg');
+  }
+  &.kids-cage-article-cover {
+    background-image: url('./././images/articles/kids-cage-article-cover.jpg');
+  }
+  &.table-tannies-article-cover {
+    background-image: url('./././images/articles/table-tannies-article-cover.jpg');
+  }
+  &.serf-article-cover {
+    background-image: url('./././images/articles/serf-article-cover.jpg');
+  }
+  &.tv-article-cover {
+    background-image: url('./././images/articles/tv-article-cover.jpg');
+  }
+  &.dog-article-cover {
+    background-image: url('./././images/articles/dog-article-cover.jpg');
+  }
+  &.supercar-article-cover {
+    background-image: url('./././images/articles/supercar-article-cover.jpg');
+  }
+  &.chindogu-article-cover {
+    background-image: url('./././images/articles/chindogu-article-cover.jpg');
+  }
+  &.dinosfear-article-cover {
+    background-image: url('./././images/articles/dinosfear-article-cover.jpg');
+  }
+  &.car-article-cover {
+    background-image: url('./././images/articles/car-article-cover.jpg');
+  }
+  &.flyingcar_article_cover {
+    background-image: url('./././images/articles/flyingcar_article_cover.jpg');
+  }
+  &.ai-article-cover {
+    background-image: url('./././images/articles/ai-article-cover.jpg');
+  }
+  &.aetotrain-article-cover {
+    background-image: url('./././images/articles/aetotrain-article-cover.jpg');
+  }
+  &.chindogy-article-cover {
+    background-image: url('./././images/articles/chindogy-article-cover.jpg');
+  }
+  &.film-article-cover {
+    background-image: url('./././images/articles/film-article-cover.jpg');
+  }
+  &.reality-article-cover {
+    background-image: url('./././images/articles/reality-article-cover.jpg');
+  }
+  &.parachute-article-cover {
+    background-image: url('./././images/articles/parachute-article-cover.jpg');
+  }
+  &.again_article_cover {
+    background-image: url('./././images/articles/again_article_cover.jpg');
+  }
+  &.isolator-article-cover {
+    background-image: url('./././images/articles/isolator-article-cover.jpg');
+  }
+  &.eggcuber-article-cover {
+    background-image: url('./././images/articles/eggcuber-article-cover.jpg');
+  }
+  &.tvglasses-article-cover {
+    background-image: url('./././images/articles/tvglasses-article-cover.jpg');
+  }
+  &.dog-grabber-cover {
+    background-image: url('./././images/articles/dog-grabber-cover.jpg');
+  }
+  &.pipe-article-cover {
+    background-image: url('./././images/articles/pipe-article-cover.jpg');
+  }
+  @media (max-width: 660px) {
+    height: 20rem;
+    padding: 0 1rem;
+  }
+  @media (max-width: 480px) {
+    height: 15rem;
+  }
+}
+.A_image-article {
+  @include cover;
+  width: 100%;
+  height: 28.125rem;
+  &.Image-type {
+    background-image: url('./././images/articles/article-kletki-dlya-detki.jpg');
+  }
+  &.isolator-article-big {
+    background-image: url('./././images/articles/isolator-article-big.jpg');
+  }
+  &.isolator-article-second {
+    background-image: url('./././images/articles/isolator-article-second.jpg');
+  }
+  &.eggcuber-article-big {
+    background-image: url('./././images/articles/eggcuber-article-big.jpg');
+  }
+  &.eggcuber-article-second {
+    background-image: url('./././images/articles/eggcuber-article-second.jpg');
+  }
+  &.tvglasses-article-big {
+    background-image: url('./././images/articles/tvglasses-article-big.jpg');
+  }
+  &.tvglasses-article-second {
+    background-image: url('./././images/articles/tvglasses-article-second.jpg');
+  }
+  &.dog-grabber-cover {
+    background-image: url('./././images/articles/dog-grabber-cover.jpg');
+  }
+  &.pipe-article-big {
+    background-image: url('./././images/articles/pipe-article-big.jpg');
+  }
+  &.pipe-article-second {
+    background-image: url('./././images/articles/pipe-article-second.jpg');
+  }
+  &.dinosfear_article_big {
+    background-image: url('./././images/articles/dinosfear_article_big.jpg');
+  }
+  &.car-article-big {
+    background-image: url('./././images/articles/car-article-big.jpg');
+  }
+  &.flyingcar_article_big {
+    background-image: url('./././images/articles/flyingcar_article_big.jpg');
+  }
+  &.ai-article-big {
+    background-image: url('./././images/articles/ai-article-big.jpg');
+  }
+  &.aetotrain-article-big {
+    background-image: url('./././images/articles/aetotrain-article-big.jpg');
+  }
+  &.chindogy-article-big {
+    background-image: url('./././images/articles/chindogy-article-big.jpg');
+  }
+  &.chindogy-article-second {
+    background-image: url('./././images/articles/chindogy-article-second.jpg');
+  }
+  &.film-article-big {
+    background-image: url('./././images/articles/film-article-big.jpg');
+  }
+  &.reality-article-big {
+    background-image: url('./././images/articles/reality-article-big.jpg');
+  }
+  &.parachute-article-big {
+    background-image: url('./././images/articles/parachute-article-big.jpg');
+  }
+  &.again_article_second {
+    background-image: url('./././images/articles/again_article_second.jpg');
+  }
+  &.hat-article-big {
+    background-image: url('./././images/articles/hat-article-big.jpg');
+  }
+  &.glasses-article-big {
+    background-image: url('./././images/articles/glasses-article-big.jpg');
+  }
+  &.cyber-article-big {
+    background-image: url('./././images/articles/cyber-article-big.jpg');
+  }
+  &.kids-cage-article-big {
+    background-image: url('./././images/articles/kids-cage-article-big.jpg');
+  }
+  &.table-tannies-article-big {
+    background-image: url('./././images/articles/table-tannies-article-big.jpg');
+  }
+  &.serf-article-big {
+    background-image: url('./././images/articles/serf-article-big.jpg');
+  }
+  &.tv-article-big {
+    background-image: url('./././images/articles/tv-article-big.jpg');
+  }
+  &.dog-article-big {
+    background-image: url('./././images/articles/dog-article-big.jpg');
+  }
+  &.supercar-article-big {
+    background-image: url('./././images/articles/supercar-article-big.jpg');
+  }
+  &.chindogu-article-big {
+    background-image: url('./././images/articles/chindogu-article-big.jpg');
+  }
+
+  @media (max-width: 660px) {
+    height: 20rem;
+  }
+  @media (max-width: 480px) {
+    height: 15rem;
+  }
+  // @media (max-width: 350px) {
+  //   height: 10rem;
+  // }
+}
+
+.A_text-article {
+  @include font(var(--black), 'Pitagon Sans Mono', 1.25rem, 150%);
+  blockquote {
+    @include font(
+      var(--orange),
+      'Pitagon Sans Mono',
+      1.5rem,
+      120%,
+      default,
+      center
+    );
+    padding: 1rem 0rem;
+  }
+}
+
+// .A_quote {
+//   @include font(
+//     var(--orange),
+//     'Pitagon Sans Mono',
+//     1.5rem,
+//     120%,
+//     default,
+//     center
+//   );
+//   padding: 1rem 0rem;
+// }
+
+.A_image-descriprion {
+  @include font(var(--black), 'Pitagon Sans Mono', 1rem);
+  display: inline-flex;
+  padding: 0rem 0.75rem;
+  border-radius: 0.25rem;
+  background: var(--orange);
+  // max-width: 50%;
+}
+
+//titles
+
+.A_title-text {
+  @include font(var(--black), 'Phlatt Grotesk', default, default, uppercase);
+}
+
+.A_page-title {
+  @include font(
+    var(--black),
+    'Phlatt Grotesk',
+    default,
+    default,
+    uppercase,
+    center
+  );
+  text-wrap: wrap;
+  white-space: normal;
+}
+.A_go-to-button {
+  @include font(var(--orange), 'Pitagon Sans Mono', 1rem);
+  &:hover {
+    text-decoration-line: underline;
+  }
+}
+
+//videos and tests
+
+.A_cover-lead {
+  @include font(var(--black), 'Phlatt Grotesk', 1rem);
+  padding: 0 0.5rem;
+  @media (min-width: 440px) and (max-width: 530px) {
+    padding: 0 2rem;
+  }
+
+  @media (max-width: 440px) {
+    width: 20rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+.A_videos-cover {
+  width: 32.125rem;
+  height: 18.875rem;
+  @include cover;
+  &.Image-type {
+    background-image: url('./././images/articles/article-kletki-dlya-detki.jpg');
+    position: relative;
+    &::after {
+      @include gradient;
+    }
+  }
+}
+
+.A_question-text {
+  @include font(var(--black), 'Pitagon Sans Mono');
+}
+
+.A_test-progress {
+  @include font(var(--black), 'Pitagon Sans Mono');
+  * {
+    display: inline;
+  }
+}
+.Orange {
+  color: var(--orange);
+}
+
+.A_test-score {
+  @include font(var(--white), 'Phlatt Grotesk', default, default, uppercase);
+}
+
+.A_test-text {
+  @include font(var(--white), 'Pitagon Sans Mono');
+}
+.A_test-comment {
+  @include font(var(--white), 'Phlatt Grotesk', 1rem);
+}
+
+.A_test-button {
+  @include font(var(--white), 'Phlatt Grotesk', 1rem, 120%);
+  display: inline-flex;
+  padding: 0.5rem 1rem;
+  border-radius: 5rem;
+  background: var(--black);
+  transition: 0.1s;
+  &:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.1s;
+  }
+  &.Select {
+    background: var(--orange);
+  }
+  &.Retry {
+    background: var(--white);
+    color: var(--black);
+  }
+}
+
+//footer
+
+.A_form-message {
+  @include font(var(--white), 'Pitagon Sans Mono');
+  width: inherit;
+}
+//cover
+
+.A_large-text {
+  // padding: 0 0 0 5rem;
+
+  margin: 0 auto;
+
+  @include font(var(--black), 'Phlatt Grotesk', 10rem, default, uppercase);
+  // margin: 0 auto;
+  @media (min-width: 1440px) {
+    max-width: 67.75rem;
+    margin: 0 auto;
+    // padding: 0 0 0 1rem;
+  }
+  @media (min-width: 1240px) and (max-width: 1440px) {
+    max-width: 67.75rem;
+    // margin: 0 auto;
+    // padding: 0 0 0 1rem;
+  }
+  @media (min-width: 956px) and (max-width: 1239px) {
+    max-width: 55rem;
+    font-size: 8rem;
+    padding: 0 0 0 1rem;
+    // margin: 0 auto;
+  }
+  // @media (min-width: 858px) and (max-width: 965px) {
+  //   max-width: 45rem;
+  //   font-size: 6rem;
+  //   padding: 0 0 0 4rem;
+  // }
+  @media (min-width: 689px) and (max-width: 965px) {
+    font-size: 5.5rem;
+    max-width: 40rem;
+    padding: 0 0 0 3rem;
+  }
+
+  @media (min-width: 568px) and (max-width: 688px) {
+    font-size: 5rem;
+    max-width: 33rem;
+  }
+
+  @media (max-width: 568px) {
+    font-size: 3.8rem;
+    max-width: 24rem;
+  }
+}

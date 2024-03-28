@@ -1,0 +1,138 @@
+.C_sidebar {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+}
+.C_socialmedia {
+  display: inline-flex;
+  gap: 0.5rem;
+}
+
+.C_tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  height: 3rem;
+
+  &.Orange {
+    button,
+    p {
+      border: 1px solid var(--orange);
+      color: var(--orange);
+    }
+  }
+  &.White {
+    button,
+    p {
+      border: 1px solid var(--white);
+      color: var(--white);
+    }
+  }
+}
+.C_test-variants {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.C_main-menu {
+  display: inline-flex;
+  gap: 1rem;
+  &.Burger {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.C_tags-articles {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  * {
+    border: 1px solid var(--orange);
+    color: var(--orange);
+  }
+}
+
+.C_videos {
+  display: flex;
+  max-width: 67.75rem;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  @media (min-width: 1800px) {
+    max-width: 102rem;
+  }
+  @media (min-width: 1240px) and (max-width: 1800px) {
+    max-width: 67.75rem;
+  }
+  @media (min-width: 968px) and (max-width: 1240px) {
+    max-width: 50.5rem;
+    .O_video-card {
+      width: 24.5rem;
+    }
+    .O_search {
+      display: none;
+    }
+    .O_note {
+      display: none;
+    }
+  }
+  @media (min-width: 568px) and (max-width: 967px) {
+    max-width: 33.5rem;
+  }
+  @media (max-width: 568px) {
+    justify-content: center;
+  }
+}
+
+.C_articles {
+  display: flex;
+  max-width: 67.75rem;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  @media (min-width: 1800px) {
+    max-width: 101.5rem;
+  }
+  @media (min-width: 1240px) and (max-width: 1800px) {
+    max-width: 67.75rem;
+  }
+  @media (min-width: 968px) and (max-width: 1239px) {
+    max-width: 50.5rem;
+  }
+  @media (min-width: 568px) and (max-width: 967px) {
+    max-width: 33.5rem;
+  }
+  @media (max-width: 568px) {
+    justify-content: center;
+  }
+  // margin: 1rem auto;
+}
+.C_tests {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  @media (min-width: 1800px) {
+    max-width: 101.5rem;
+  }
+  @media (min-width: 1240px) and (max-width: 1800px) {
+    max-width: 67.75rem;
+  }
+  @media (min-width: 968px) and (max-width: 1239px) {
+    max-width: 50.5rem;
+  }
+  @media (min-width: 568px) and (max-width: 967px) {
+    max-width: 33.5rem;
+  }
+  @media (max-width: 568px) {
+    justify-content: center;
+  }
+  // margin: 1rem auto;
+}

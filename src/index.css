@@ -1,14 +1,18 @@
 @import 'stylesheets/reset.scss';
-@import 'stylesheets/fonts.scss';
+@import 'fonts.css';
 @import 'stylesheets/vars.scss';
-/* @import 'stylesheets/articles.scss'; */
-/* @import 'stylesheets/videos.scss';
-@import 'stylesheets/tests.scss'; */
 @import 'stylesheets/index.scss';
-/* @import 'stylesheets/collector.scss';
-@import 'stylesheets/about_project.scss';
-@import 'stylesheets/styleguide.scss'; */
+@import 'stylesheets/mixins.scss';
 
-/* atoms */
-@import 'stylesheets/components/atoms/a_test-button.scss';
-@import 'stylesheets/components/atoms/a_main-menu.scss';
+@import 'stylesheets/components/quarks/quarks.scss';
+@import 'stylesheets/components/molecules/molecules.scss';
+@import 'stylesheets/components/collections/collections.scss';
+@import 'stylesheets/components/wrappers/wrappers.scss';
+@import 'stylesheets/components/organisms/organisms.scss';
+@import 'stylesheets/components/atoms/atoms.scss';
+
+@import 'stylesheets/articles.scss';
+@import 'stylesheets/videos.scss';
+@import 'stylesheets/tests.scss';
+
+/* articles */

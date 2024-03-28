@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'Phlatt Grotesk';
-  src: url('/fonts/Phlatt Grotesk/PhlattGrotesk-Regular.woff');
+  src: url('fonts/Phlatt Grotesk/PhlattGrotesk-Regular.woff');
 }
 @font-face {
   font-family: 'Pitagon Sans Mono';
-  src: url('/fonts/Pitagon Sans Mono/Pitagon Sans Mono-Regular.woff2');
+  src: url('fonts/Pitagon Sans Mono/PitagonSansMono-Regular.woff2');
 }

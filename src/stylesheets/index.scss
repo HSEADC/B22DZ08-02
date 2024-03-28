@@ -1,4 +1,63 @@
 .components {
-  margin-top: 8px;
+  margin-top: 16px;
   margin-left: 8px;
+  margin-right: 8px;
+  // margin: 0 auto;
+}
+
+body {
+  background-color: var(--back-grey);
+  min-width: 360px;
+  hyphens: auto;
+
+  // -ms-hyphens: auto;
+  // -webkit-hyphens: auto;
+  // hyphens: auto;
+  // hyphenate-limit-chars: 6 3 2;
+  // -ms-hyphenate-limit-zone: 8%;
+  // /* legacy properties */
+  // -webkit-hyphenate-limit-before: 3;
+  // -webkit-hyphenate-limit-after: 2;
+
+  // /* current proposal */
+  // -moz-hyphenate-limit-chars: 6 3 2;
+  // -webkit-hyphenate-limit-chars: 6 3 2;
+  // -ms-hyphenate-limit-chars: 6 3 2;
+  // hyphenate-limit-chars: 6 3 2;
+  // -ms-hyphenate-limit-lines: 2;
+  // -webkit-hyphenate-limit-lines: 2;
+  // -ms-hyphenate-limit-lines: 2;
+  // -ms-hyphenate-limit-last: always;
+}
+
+.bag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding-top: 15%;
+
+  h1 {
+    font-family: 'Pitagon Sans Mono';
+    font-size: 8rem;
+  }
+
+  h5 {
+    font-size: 24px;
+    padding: 0 1rem;
+    font-family: 'Phlatt Grotesk';
+  }
+}
+
+.main-page {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: flex-start;
+  // padding-bottom: 2rem;
+  @media (max-width: 568px) {
+    width: auto;
+  }
 }

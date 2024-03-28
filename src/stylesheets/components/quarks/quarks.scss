@@ -1,0 +1,27 @@
+.Q_test-line {
+  width: 138px;
+  height: 1px;
+  background-color: var(--black);
+}
+
+.Q_test-progress-line {
+  width: 0;
+  height: 5px;
+  border-radius: 5rem;
+  background-color: var(--orange);
+  &.Twenty-percent {
+    width: 28px;
+  }
+  &.Forty-percent {
+    width: 56px;
+  }
+  &.Sixty-percent {
+    width: 84px;
+  }
+  &.Eighty-percent {
+    width: 112px;
+  }
+  &.One-hundred-percent {
+    width: 140px;
+  }
+}

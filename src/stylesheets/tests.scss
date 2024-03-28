@@ -1,0 +1,59 @@
+.tests {
+  .C_tests {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+  }
+  @media (min-width: 460px) and (max-width: 668px) {
+    .O_articles {
+      .A_title-text {
+        padding-left: 2rem;
+      }
+    }
+  }
+
+  @media (max-width: 568px) {
+    width: auto;
+  }
+}
+.test {
+  @media (max-width: 568px) {
+    width: auto;
+  }
+  .W_section-lead {
+    max-width: 48.5rem;
+  }
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  // gap: 5rem;
+  // align-items: flex-start;
+  align-items: center;
+
+  .M_go-to-button {
+    max-width: 52.125rem;
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .O_test-progress-container {
+    // display: flex;
+    text-align: center;
+  }
+
+  .One {
+    display: flex;
+  }
+  .Two {
+    display: flex;
+  }
+  .Three {
+    display: flex;
+  }
+  .Four {
+    display: flex;
+  }
+  .Five {
+    display: flex;
+  }
+}
